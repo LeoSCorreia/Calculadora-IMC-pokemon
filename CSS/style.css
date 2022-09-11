@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(/Assets/image/background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(223, 222, 229);
+    background-color: rgb(56, 210, 171);
+    box-shadow: 2px 2px 2px rgb(35, 41, 41);
+    border-radius: 6px;
+    opacity: 0.96;
+}
+.card-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+.card-left, img{
+    width: 300px
+}
+
+.card-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 30px;
+}
+input{
+    width: 400px;
+    height: 20px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 7px;
+    color: rgb(236, 236, 236);
+    background-color: rgb(56, 210, 171);
+}
+button{
+    width: 150px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgb(35, 41, 41);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(56, 210, 171);
+    color: rgb(241, 228, 228);
+}
+button:hover{
+    background-color: rgb(195, 88, 88);
+    cursor: pointer;
+    transition: all .3s;
+}
+.logo{
+    width: 15px;
+    margin-right: 6px;
+}
+.resultado{
+    margin: auto;
+    background-color: rgb(56, 210, 171);
+    color: rgb(236, 236, 236);
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
