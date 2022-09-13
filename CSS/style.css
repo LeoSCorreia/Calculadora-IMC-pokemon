@@ -10,10 +10,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 .container{
-    width: 1000px;
-    height: 700px;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;

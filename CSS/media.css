@@ -1,0 +1,16 @@
+@media screen and (max-width: 993px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-left, img{
+        font-size: 6px;
+        width: 200px;
+    }
+    .resultado{
+        width: 200px;
+    }
+    input{
+        width: 300px;
+    }
+}

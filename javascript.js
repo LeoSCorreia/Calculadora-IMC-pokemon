@@ -37,7 +37,7 @@ function calc() {
   }
   if (imc >= 40) {
     resultado.textContent =
-      "Você está com Obesidade grau III, atingir este nível de IMC, o risco de doenças associadas é muito alto. Busque ajuda de um profissional de saúde.";
+      "Você está com Obesidade grau III, ao atingir este nível de IMC, o risco de doenças associadas é muito alto. Busque ajuda de um profissional de saúde.";
     image.src = "/Assets/image/ObesidadeMórbida.png";
   }
 }
