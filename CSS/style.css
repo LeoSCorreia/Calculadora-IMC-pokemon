@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url("/Assets/image/background.jpg");
+    background-image: url("background.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
